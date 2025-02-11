@@ -1,0 +1,10 @@
+n = int(input())
+g = input()
+anton_w = g.count('A')
+danik_w = g.count('D')
+if anton_w > danik_w:
+    print("anton")
+elif danik_w > anton_w:
+    print  ("danik")
+else:
+    print("friendship")
